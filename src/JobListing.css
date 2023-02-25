@@ -1,0 +1,162 @@
+    .job--listing{
+        
+        margin-top: 0.313rem;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        color: #987B74;
+        margin-bottom: 0.313rem;
+
+    }
+    .job--listing--card{
+
+        background-color: #F8F4EA;
+        border-radius: 0.5rem;
+        /* margin-left: 50%; */
+        /* margin-right: 50%; */
+        cursor: pointer;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        /* padding: 0.313rem; */
+        justify-content: center;
+
+        /* makes it responsive */
+        flex: 0.5;
+        /* width: fit-content; */
+        /* max-width: 40rem; */
+        /* display: inline-block; */
+
+
+    }
+
+    .job--listing--card > a{
+        text-decoration: none;
+        color: inherit;
+
+
+    }
+    .job--card{
+        
+        display: flex;
+        padding: 0.313rem;
+        justify-content: space-between;
+    }
+    .job--card > p{
+
+        padding-top: 0.125rem;
+        margin-right: 0.313rem;
+ 
+    }
+    .company--info{
+
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.313rem;
+
+    }
+    .company--info > img{
+
+        max-height: 0.938rem;
+        margin-right: 0.313rem;
+        margin-left: 0.75rem;
+   
+    }
+    .company--info > p{
+
+        margin-top: -0.125rem;
+        padding-top: 0.5rem;
+        margin-left: 0.125rem;
+        line-height: 0.938rem;
+        letter-spacing: 0.1em;
+
+    }
+    
+
+    .job--details{
+        margin: 0.313rem;
+        padding: 0.313rem;
+
+    }
+    .job--details > p{
+
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-top: -0.625rem;
+        color: #563626;
+        margin-left: 0.313rem;
+        text-align: left;
+        /* width: 40.625rem; */
+        /* width: 100%; */
+        margin-bottom: 0.313rem;
+  
+    
+    }
+    .job--details > .filters > p{
+        font-size: 0.9rem;
+    }
+
+
+    /* TABLET */
+    @media screen and (min-width: 656px) and (max-width: 1023px) {
+        .company--info > p{
+            font-size: 0.97rem;
+          }  
+        .job--listing--card{
+            flex: 0.7;
+            /* padding: none; */
+        }
+            .job--details > p {
+              /* font-weight: 600;   */
+              font-size: 1.125rem;
+            }
+            .job--details > .filters > p{
+                font-size: 0.9rem;
+                /* font-weight: 550; */
+            }
+
+    }
+
+    /* PHONE */
+
+    @media (max-width: 656px) {
+
+      .company--info > p{
+        font-size: 0.68rem;
+        margin-bottom: -10px;
+
+      }  
+    .job--listing--card{
+        flex: 0.95;
+        padding: none;
+    }
+        .job--details > p {
+          /* font-weight: 600;   */
+          font-size: 0.75rem;
+        }
+        .job--details > .filters > p{
+            font-size: 0.6rem;
+            margin-top: -0.65rem;
+
+            /* font-weight: 550; */
+        }
+      }
+
+
+
+
+
+    .job--details > p:hover{
+        text-decoration: underline;
+    }
+
+
+    .filters{
+        display: flex;
+        
+    }
+    .filters > p{
+
+        margin-left: 0.313rem;
+       
+    }
