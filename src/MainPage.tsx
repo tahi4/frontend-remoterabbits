@@ -20,7 +20,7 @@ function MainPage(){
   const [datas, setData] = useState<Data[]>([])
 
   useEffect(()=>{
-    fetch('https://web-production-a397.up.railway.app/').then(
+    fetch('https://backend-remoterabbits-db.onrender.com/').then(
       res=> (res).json()
              
     ).then(
